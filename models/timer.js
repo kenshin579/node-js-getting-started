@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
 
 const timerSchema = new Schema({
     timer_description: {
@@ -21,6 +21,6 @@ const timerSchema = new Schema({
         type: Date,
         default: Date.now
     }
-});
+})
 
-module.exports = mongoose.model('timer', timerSchema);
+module.exports = mongoose.model('timer', timerSchema)
